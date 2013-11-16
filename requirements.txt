@@ -1,0 +1,10 @@
+Jinja2==2.7.1
+MarkupSafe==0.18
+PyYAML==3.10
+Pygments==1.6
+docopt==0.6.1
+docutils==0.11
+liquidluck==3.8.1
+misaka==1.0.2
+tornado==3.1.1
+wsgiref==0.1.2

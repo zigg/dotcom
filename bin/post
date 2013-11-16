@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+
+import datetime
+import os
+import sys
+
+now = datetime.datetime.now()
+path = 'content/words/{0:%Y/%m}'.format(now)
+try:
+    os.makedirs(path)
+except OSError as e:
+    if e.errno != 17:
+        raise
+filename = os.path.join(path, sys.argv[1]) + '.md'
+fd = os.open(filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL)
+os.write(fd, """# Title
+
+- date: {0:%Y-%m-%d}
+- tags:
+
+----
+
+
+""".format(now))
+os.close(fd)
+editor = os.environ.get('EDITOR', '/usr/bin/vi')
+os.execv(editor, [editor, filename])
+

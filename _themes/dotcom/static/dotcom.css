@@ -7,10 +7,11 @@ pre {
 	border: solid #cccccc 1px;
 	padding: 10px;
 	margin: 20px 0px;
+	overflow-x: scroll;
 }
 
 pre, code {
-	font-family: Source Code Pro, monospace;
+	font-family: Source Code Pro, Menlo, monospace;
 }
 
 .navbar {

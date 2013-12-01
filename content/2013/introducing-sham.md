@@ -83,7 +83,7 @@ Traceback (most recent call last):
   File "sham/__init__.py", line 112, in assertCallCount
     assert count == log_count, '%d == %d' % (count, log_count)
 AssertionError: 2 == 1
-ham.assertCalledWith(s, True)
+>>> sham.assertCalledWith(s, True)
 >>> sham.assertCalledWith(s, False)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>

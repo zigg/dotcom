@@ -14,6 +14,8 @@ occur, such as disconnecting AC power.  To unconditionally keep power
 management off, create `/etc/pm/power.d/wireless` as an executable script
 with the following contents:
 
-    #!/bin/sh
-    /sbin/iwconfig wlan0 power off
+````sh
+#!/bin/sh
+/sbin/iwconfig wlan0 power off
+````
 

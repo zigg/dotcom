@@ -1,6 +1,6 @@
 # Hello, world!
 
-- date: 2013-12-01 01:51
+- date: 2013-12-01 03:51
 - tags: meta, ownership, cloud
 
 ----
@@ -42,8 +42,9 @@ overmuch about content migration.
 
 So, now I have a place to write again.  I'm excited!  I'm very much
 looking forward to letting everyone back into the weird world of
-me again.  I'm planning on migrating old content as time permits.
-Thanks for reading, and thanks for waiting.
+me again.  I'm planning on migrating old content as time permits;
+some is already here, though my [old journal][11] in particular is
+going to be a bigger job.  Thanks for reading, and thanks for waiting.
 
 (oh who am I kidding nobody was *actually* waiting for me)
 
@@ -57,4 +58,5 @@ Thanks for reading, and thanks for waiting.
 [8]: http://ansibleworks.com/
 [9]: https://daringfireball.net/projects/markdown/
 [10]: http://www.getskeleton.com/
+[11]: /journal/
 

@@ -74,10 +74,6 @@ gets, but I intend to add more functionality, such as returned values,
 side effects, and [replays][8].
 
 ````python
->>> import sham
->>> s = sham.Sham()
->>> s(True)
->>> import sham
 >>> s = sham.Sham()
 >>> s(True)
 >>> sham.assertCallCount(s, 1)

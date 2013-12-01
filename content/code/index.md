@@ -11,6 +11,8 @@ started a few projects of my own:
 * [octothorpe][2]: an [Asterisk Manager Interface][3] library for the
   [Twisted][4] engine
 
+* [sham][8]: a compelling replacement for [Mock][9]
+
 * [xon][5]: XML Object Notation serializer/deserializer
 
 [1]: https://www.gnu.org/philosophy/free-sw.html
@@ -20,4 +22,6 @@ started a few projects of my own:
 [5]: /code/xon/
 [6]: /code/dbbsed/
 [7]: http://www.nintendo.co.jp/ds/abbj/
+[8]: /code/sham/
+[9]: http://www.voidspace.org.uk/python/mock/
 

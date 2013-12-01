@@ -24,7 +24,7 @@ the cloud, be it crampedly on [Twitter][4] or in style at the lovely
 pieces][7] at Medium (and even after experiencing their really nice
 feedback system), I remained uncomfortable with this whole notion
 that I didn't own the space my words lived in.  These feelings
-really got fired up when I was looking at republishing "Permanence"
+really got fired up when I was looking at republishing ["Permanence"][12]
 there; rereading it made me question what the heck I was doing.
 Felt like a hypocrite.
 
@@ -59,4 +59,5 @@ going to be a bigger job.  Thanks for reading, and thanks for waiting.
 [9]: https://daringfireball.net/projects/markdown/
 [10]: http://www.getskeleton.com/
 [11]: /journal/
+[12]: /2012/permanence.html
 

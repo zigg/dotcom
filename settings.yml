@@ -16,15 +16,14 @@ config:
     output: deploy
     static: deploy/lib
     static_prefix: /lib/
-    permalink: "words/{{date.year}}/{{date.month}}/{{filename}}.html"
+    permalink: "{{date.year}}/{{filename}}.html"
     relative_url: false
     perpage: 30
     feedcount: 20
-    timezone: "-05:00"
-
+    timezone: "-00:00"
 
 author:
-    default: zigg
+    default: "Matt Behrens"
 
 #: active readers
 reader:
@@ -45,13 +44,14 @@ writer:
         - liquidluck.writers.core.FileWriter
         - liquidluck.writers.core.StaticWriter
         - liquidluck.writers.core.YearWriter
-        - liquidluck.writers.core.CategoryWriter
-        - liquidluck.writers.core.CategoryFeedWriter
+        # - liquidluck.writers.core.CategoryWriter
+        # - liquidluck.writers.core.CategoryFeedWriter
         - liquidluck.writers.core.TagWriter
-        - liquidluck.writers.core.TagCloudWriter
+        # - liquidluck.writers.core.TagCloudWriter
     vars:
         # uncomment if you want to reset archive page
         # archive_output: archive.html
+        archive_title: Words
 
 #: theme variables
 theme:
@@ -63,7 +63,6 @@ theme:
     # vars:
         #"disqus": "your_short_name",
         #"analytics": "UA-21475122-1",
-
 
 #: template variables
 template:

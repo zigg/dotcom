@@ -13,7 +13,7 @@
     </li>
     {%- endif %}
     <li class="entry-item">
-        <time class="updated" datetime="{{item.date|xmldatetime}}">{{item.date.strftime('%Y-%m-%d')}}</time>
+        <time class="updated" datetime="{{item.date|xmldatetime}}">{{item.date.strftime('%m-%d')}}</time>
         <a href="{{item|permalink}}">{{item.title}}</a>
     </li>
     {% endfor %}

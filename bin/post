@@ -4,8 +4,8 @@ import datetime
 import os
 import sys
 
-now = datetime.datetime.now()
-path = 'content/words/{0:%Y/%m}'.format(now)
+now = datetime.datetime.utcnow()
+path = 'content/{0:%Y}'.format(now)
 try:
     os.makedirs(path)
 except OSError as e:
@@ -15,7 +15,7 @@ filename = os.path.join(path, sys.argv[1]) + '.md'
 fd = os.open(filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL)
 os.write(fd, """# Title
 
-- date: {0:%Y-%m-%d}
+- date: {0:%Y-%m-%d %H:%M}
 - tags:
 
 ----

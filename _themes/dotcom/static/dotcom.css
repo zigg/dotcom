@@ -1,0 +1,83 @@
+ul {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
+pre {
+	border: solid #cccccc 1px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+
+pre, code {
+	font-family: Source Code Pro, monospace;
+}
+
+.navbar {
+	background-color: #eeeeee;
+	padding: 4px 0px;
+	margin-bottom: 15px;
+	border-bottom: #cccccc solid 1px;
+}
+
+.logo {
+	font-size: 16px;
+	float: left;
+}
+
+.logo a, nav ul li a {
+	text-decoration: none;
+}
+
+.logo a:hover, nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.logo-zigg {
+       font-weight: bold;
+}
+
+.links {
+	text-align: right;
+	float: right;
+}
+
+nav ul {
+	margin: 0px;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+nav ul li.social img {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top: 2px;
+}
+
+.dateline, .dateline a {
+	color: #999999;
+}
+
+.twitter-share-button {
+	position: relative;
+	top: 5px;
+}
+
+.entry-list {
+	margin-left: 0px;
+	list-style-type: none;
+}
+
+.entry-item {
+	margin-left: 30px;
+}
+
+.entry-item-title {
+	font-size: 20px;
+	margin-left: 0px;
+}
+

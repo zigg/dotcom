@@ -1,6 +1,6 @@
 # Hello, world!
 
-- date: 2013-11-15
+- date: 2013-12-01 01:51
 - tags: meta, ownership, cloud
 
 ----
@@ -32,7 +32,8 @@ Finally, I wanted to post things that weren't quite so… heavy.
 Medium didn't feel like the appropriate place to expound on a neat
 thing I did in [Ansible][8] the other day.  So I opted to check out
 static site generators, found Felix Felicis, found it nice and simple
-and pretty close to what I was looking for.  I still have to stifle
+and pretty close to what I was looking for, and [Skeleton][10] helped
+me save my CSS sanity (to a point).  I still have to stifle
 the urge to throw it all away and build my own—something I swore I'd
 do for years—but I think it'll do nicely.  Time will tell, and in
 the meantime, everything's all nice and [Marked-down][9] so if I ever
@@ -55,4 +56,5 @@ Thanks for reading, and thanks for waiting.
 [7]: https://medium.com/@zigg/
 [8]: http://ansibleworks.com/
 [9]: https://daringfireball.net/projects/markdown/
+[10]: http://www.getskeleton.com/
 

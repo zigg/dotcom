@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import os
+import shutil
 import subprocess
 import sys
 import time
@@ -9,9 +10,6 @@ path = os.path.dirname(sys.argv[0])
 python = os.path.join(path, 'python')
 liquidluck = os.path.join(path, 'liquidluck')
 
+shutil.rmtree(os.path.join(path, '..', 'deploy'))
 subprocess.call([python, liquidluck, 'build', '-v'])
-server = subprocess.Popen([python, liquidluck, 'server'])
-time.sleep(1)
-subprocess.call(['open', 'http://127.0.0.1:8000'])
-server.wait()
 

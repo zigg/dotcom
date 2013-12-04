@@ -17,7 +17,7 @@ Now, I love what Mock *does*.  After [Adam Tauno Williams][4]'
 [presentation][5] on it at the [Grand Rapids Python Users Group][6],
 I started using it for [octothorpe][7], replacing some custom-built
 test doubles that recorded their behavior.  Mock let me magically
-buid those instead, making for a cleaner test suite.
+build those instead, making for a cleaner test suite.
 
 But the API makes me chafe.  My chief beef is this:
 

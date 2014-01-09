@@ -12,7 +12,7 @@ to [FreeBSD][2] and [OpenBSD][3].  Since then, I've moved back and
 forth between OpenBSD and Linux for my home server, and spent a lot
 of time using various flavors of Linux on the desktop before finally
 deciding that while I still loved Unix, my time was worth more than
-the endless fiddling I needed to keep it going and moving to [OS
+the endless fiddling I needed to keep it going—and thus I moved to [OS
 X][4].  Now I'm a certifiable Apple nerd, though my home server
 stays on OpenBSD.
 

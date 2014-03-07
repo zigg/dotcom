@@ -1,6 +1,6 @@
 # Trust upgrades
 
-- date: 2014-03-07 21:15
+- date: 2014-03-07 22:15
 - tags: keybase, pgp, trust, crypto
 
 ----
@@ -22,12 +22,12 @@ timeline this weekend, including mine.  I was lucky enough to nab
 an invite via [Alex Gaynor](http://alexgaynor.net/), and so I [signed
 up](https://keybase.io/zigg) and started futzing about, as is my wont.
 
-Let's start with the notion of browser-based cryptography, something
-I've muttered about recently.  Keybase offers several browser-based
-cryptography options, but doesn't require you to use them.  So I
-didn't—I kept my encrypted private key to myself.  I did install
-(via [npm™](https://www.npmjs.org/), which was my first time using
-it for anything!) [the `keybase` command-line
+I was first presented the option of browser-based cryptography,
+something I've muttered about recently.  Keybase offers several
+browser-based cryptography options, but doesn't require you to use
+them.  So I didn't—I kept my encrypted private key to myself.  I
+did install (via [npm™](https://www.npmjs.org/), which was my first
+time using it for anything!) [the `keybase` command-line
 package](https://keybase.io/__/command_line/keybase#installation)
 and used that to
 [prove](https://twitter.com/zigg/status/441718507026542592) that

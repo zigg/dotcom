@@ -130,4 +130,4 @@ in [the Vagrant hacking setup for `octothorpe`][14].
 [11]: https://stackoverflow.com/
 [12]: https://stackoverflow.com/users/1876318/ravello
 [13]: http://stackoverflow.com/a/14155303/722332
-[14]: https://github.com/zigg/octothorpe/tree/master/doc/vagrant
+[14]: https://github.com/zigg/octothorpe/blob/master/etc/playbook.yml

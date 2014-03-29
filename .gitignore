@@ -9,6 +9,8 @@ bin/liquidluck
 bin/misaka
 bin/pip
 bin/pip-2.7
+bin/pip2
+bin/pip2.7
 bin/pygmentize
 bin/python
 bin/python2

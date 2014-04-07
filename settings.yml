@@ -6,7 +6,7 @@
 #: for instance: {{site.name}}
 site:
     name: zigg.com  # your site name
-    url: "http://zigg.com/"  # your site url
+    url: "https://www.zigg.com/"  # your site url
     # "prefix": "blog",
 
 #: this config defined information of your site
@@ -51,7 +51,7 @@ writer:
     vars:
         # uncomment if you want to reset archive page
         # archive_output: archive.html
-        archive_title: Words
+        # archive_title: Words
 
 #: theme variables
 theme:

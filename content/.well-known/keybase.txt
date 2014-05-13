@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/zigg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.zigg.com
+  * I am zigg (https://keybase.io/zigg) on keybase.
+  * I have a public key with fingerprint E043 900F 94AF E80A 7633  65F4 AB46 823F CFBF 2B13
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "e043900f94afe80a763365f4ab46823fcfbf2b13",
+            "host": "keybase.io",
+            "key_id": "AB46823FCFBF2B13",
+            "uid": "172034dc078aa7a6f3e27531513d4700",
+            "username": "zigg"
+        },
+        "service": {
+            "hostname": "www.zigg.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398130914,
+    "expire_in": 157680000,
+    "prev": "ec59bf17881b6d4b1f8ad49d1f665cfab09c5d0ac53764934fa5a7f565173fe7",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+owGbwMvMwMS42q3J/vx+bWHG0wfeJTEEh554XK2UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslFINTIwtDQzSLE0S01ItDBLNzYyNzUzTTBKTTMwsjIzTktOS0oySDI2V
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgqKMTWL2bs5uTm5ETWH0pWMLQ3MjA2CQl
+2cDcIjHRPNEszTjVyNzU2NDU0DjFxNzAAKSwOLUoLzE3Fai6KjM9XalWRwkoUpaZ
+nApyL8haqGx5ebkeSIVecn4uUF9BUX5JfnJ+DlAmo6SkoNgKpLOksgCsNDUpHmpI
+fFJmXgrQ00AdZalFxZn5eUpWhkCVySWZIFMNjS0tDI0NLA1NdJRSKwoyi1LjM0Eq
+TM3NLAyAAGRPahkoqJJNLZPSDM0tLAyTzFJMkgzTLBJTTCxTDNPMzEyT0xKTDCyT
+TVMMEpNNjc3NTCyNTdISTRPN00zNTA3NjdNSzZVA3irMy1eysgA6MzEdaGRxZnpe
+YklpUapSbSeTDAsDIxMDGysTKNoYuDgFYJEZpCfA0OQsIMLuONN2xs/VSckTr/Ee
+VHHrfT9dYOpbvkQ/YYPTTaUJdoU299dvM20NOVahyVi6+6zV13ZD92eF3895Hjqo
+Nlt4QpLF5RtSzduOJt9mcd8nHfW7m6dQtNuOQWvxRakrTf9MzmqXd3xrbLXytv5T
+XWLltnIJT008s07rEnfroHPG594xlJ083WhkaXWrMMryfGLM7biY9ENPXpuFT064
+HL+zlnll2Gp7/9yj2jP0rY34ujezazGvnnSk/aHl81j2rw/dU3m4Ljazn5lz7Sz3
+w3uTcjkX9TbkuokfUWufuNLpvcyME34zRM5Nqvw1x/WZuN390/E+8r33Nxkt9q3V
+4Z4alRI5/QD/ht/TnzgIyW/jE7Ow7FNOFBCcknGr5nR93tWZjIv+Nu7JKdO35Huy
+U6s+dGb9lwXPn1x55bzbMV2iJXh6bndz16a2UiPurI5IoQsfHsck3LrwQFa1WU4t
+JJa10fxsN//itw7S7N0LLsvzpS/I+Sf34/+Fpyuk5j0Q6uc4orjDvnbP3gc9zxa+
+bHTSF4ppTmJZ5Bm211cubHLANs73GewHfvzYVsKyRKa50Pj1pMCArTbR216dXJLA
+FrrN/ecLyz1rj7dJ2/ya9M/U46rbq9Uqf95W+jBeuerHclb19p6FK/9+T2G3d5hz
+yuODj2Rm3Pxndsstf35c6P4v5Czv1r3Tjmrt3RM0pem7RtW5d6kvrqUCAA==
+=ygfn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zigg
+
+==================================================================

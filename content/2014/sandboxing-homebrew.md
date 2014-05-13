@@ -1,6 +1,6 @@
 # Sandboxing Homebrew
 
-- date: 2014-04-21 21:51
+- date: 2014-04-22 02:14
 - tags: homebrew, osx, sudo
 
 ----
@@ -12,9 +12,10 @@ operating system typically erects that makes this dichotomy:
 -   Whatever's in `$HOME` is all yours; you have rights to it, you
     can blow it away
 
--   Whatever's in `/usr` is everyone's; you can muck about with it
-    if you use `su` or [Sudo](http://sudo.ws/), and *permissions
-    will stop you if you try to muck about without them*
+-   Whatever's in `/usr` is everyone's; you can only muck about
+    with it if you use `su` or [Sudo](http://sudo.ws/), and filesystem
+    permissions will stop you if you try to do your mucking without
+    them
 
 [Homebrew](http://brew.sh/) has a different M.O. in its typical use
 case.  Your Mac is your own, it presumes, so it gives `/usr/local` to
@@ -150,6 +151,15 @@ directory we gave it.  The final touch, added to the end of our
 alias brew='sudo -u _homebrew HOMEBREW_LOGS=/var/log/homebrew /usr/local/bin/brew'
 ````
 
+**Update:** The above works for the formulae I've tested so far, but
+not `node`.  This variant solves that problem by creating temporary
+home directories for each run.  It's probably best converted into a
+wrapper script, but for now, this'll do.
+
+````bash
+alias brew='tmphome=`sudo -u _homebrew mktemp -d /tmp/_homebrew.XXXXXX`;sudo -u _homebrew HOME=${tmphome} HOMEBREW_LOGS=/var/log/homebrew /usr/local/bin/brew'
+````
+
 Now we can `brew` anything just as before, except that Sudo is now
 in the picture, switching contexts for us for all Homebrew actions:
 
@@ -161,10 +171,10 @@ Your system is ready to brew.
 
 ## Results
 
-This works really well, actually!  There's one exception right now,
-a rather big one: the `node` formula isn't completing its install,
-I think because it's trying to lock in *my* home directory.  But
-the 20-odd other formulae are working great.
+This works really well, actually! The `node` formula wasn't completing
+its install, I think because it was trying to lock in *my* home
+directory.  I patched that up with the new `brew` alias.  But the
+20-odd other formulae I use are working great.
 
 I'm definitely interested in developing this idea further, when I
 get some time.  In a virtual machine, like I should have done the

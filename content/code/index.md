@@ -5,15 +5,18 @@
 I develop a number of things.  I'm a fan of [free software][1] and have
 started a few projects of my own:
 
-* [Band Brothers Save Tool][6], a GUI too for manipulating the save
-  files of import cult hit [Daigasso! Band Brothers][7]
-
 * [octothorpe][2]: an [Asterisk Manager Interface][3] library for the
   [Twisted][4] engine
 
-* [sham][8]: a compelling replacement for [Mock][9]
+* [brewdo](/code/brewdo/): a sandboxing wrapper for
+  [Homebrew](http://brew.sh)
 
-* [xon][5]: XML Object Notation serializer/deserializer
+* [xon][5]: XML Object Notation serializer/deserializer for Python
+
+* [Band Brothers Save Tool][6], a GUI too for manipulating the save
+  files of import cult hit [Daigasso! Band Brothers][7]
+
+* [sham][8]: a compelling replacement for [Mock][9]
 
 [1]: https://www.gnu.org/philosophy/free-sw.html
 [2]: /code/octothorpe/

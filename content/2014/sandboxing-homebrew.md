@@ -1,9 +1,12 @@
 # Sandboxing Homebrew
 
 - date: 2014-04-22 02:14
-- tags: homebrew, osx, sudo
+- tags: homebrew, osx, sudo, brewdo
 
 ----
+
+**UPDATE:** I'm fleshing this experiment out into a tool called
+[brewdo](/code/brewdo/).
 
 I've been at this Unix thing for… many years.  Let's just leave it at
 that.  In this time I've developed a healthy respect for the wall the

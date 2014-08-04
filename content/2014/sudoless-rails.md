@@ -15,15 +15,16 @@ possible?" After all,
 
 > sudo install is like using global variables to manage state.
 >
-> — [@trenton42](https://twitter.com/trenton42)
+> — [@trenton42](https://twitter.com/trenton42), via
+> https://twitter.com/zigg/status/496002096085209088
 
-Avoiding the global installing of software that's for a specific
+Avoiding the global installation of software that's for a specific
 project is not just an obsession of mine; it's very good practice,
 too—after all, if *you* can confine your project's dependencies
 into a specific area and produce your environment with a few simple
 commands immediately after a `git clone`, so can anyone else who
 pulls down your code.  Always erect that wall to avoid pulling in
-unspoken dependencies—it will do you good in the long run.
+undeclared dependencies—it will do you good in the long run.
 
 With that in mind, here we go:
 

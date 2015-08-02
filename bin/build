@@ -7,13 +7,11 @@ import sys
 import time
 
 path = os.path.dirname(sys.argv[0])
-python = os.path.join(path, 'python')
-liquidluck = os.path.join(path, 'liquidluck')
 
 try:
     shutil.rmtree(os.path.join(path, '..', 'deploy'))
 except OSError, e:
     if e.errno != 2:
         raise
-subprocess.call([python, liquidluck, 'build', '-v'])
+subprocess.call(['liquidluck', 'build', '-v'])
 

@@ -6,11 +6,9 @@ import sys
 import time
 
 path = os.path.dirname(sys.argv[0])
-python = os.path.join(path, 'python')
-liquidluck = os.path.join(path, 'liquidluck')
 
-subprocess.call([python, liquidluck, 'build', '-v'])
-server = subprocess.Popen([python, liquidluck, 'server'])
+subprocess.call(['liquidluck', 'build', '-v'])
+server = subprocess.Popen(['liquidluck', 'server'])
 time.sleep(1)
 subprocess.call(['open', 'http://127.0.0.1:8000'])
 server.wait()

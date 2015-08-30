@@ -59,6 +59,21 @@ nav ul li.social img {
 	top: 2px;
 }
 
+.dateline a.twitter-share-link {
+	border: outset #999999 1px;
+	border-radius: 5px;
+	color: #049bd7;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+
+.dateline a.twitter-share-link img {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top: 2px;
+}
+
 .dateline, .dateline a {
 	color: #999999;
 }

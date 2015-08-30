@@ -13,5 +13,5 @@ everyone enjoyed it!
 
 **UPDATE:** [Video from this
 talk](http://pyvideo.org/video/2857/making-and-taking-phone-calls-with-octothorpe)
-is now available at (pyvideo.org)[http://pyvideo.org/].
+is now available at [pyvideo.org](http://pyvideo.org/).
 

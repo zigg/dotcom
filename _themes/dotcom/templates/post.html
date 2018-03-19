@@ -2,6 +2,12 @@
 
 {% block title %}{{ post.title }} - {{ site.name }}{% endblock %}
 
+{% block canonical_url %}
+	{% if post.canonical_url is not none %}
+		<link rel="canonical" href="{{ post.canonical_url }}">
+	{% endif %}
+{% endblock %}
+
 {% block main %}
 	<header>
 		<h1>{{ post.title }}</h1>

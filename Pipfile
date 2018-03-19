@@ -1,0 +1,26 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+docopt = "==0.6.2"
+docutils = "==0.12"
+"Jinja2" = "==2.8"
+liquidluck = "==3.8.1"
+MarkupSafe = "==0.23"
+misaka = "==1.0.2"
+Pygments = "==2.0.2"
+PyYAML = "==3.11"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "2.7"

@@ -4,10 +4,10 @@
 
 {% block main %}
 <ul class="entry-list">
-    {% set year = 0 -%}
+    {% set vars = {'year': None} %}
     {% for item in pagination.items %}
-    {%- if item.date.year != year %}
-    {% set year = item.date.year -%}
+    {%- if item.date.year != vars.year %}
+    {% if vars.update({'year': item.date.year}) %} {% endif -%}
     <li class="entry-item entry-item-title">
     <a href="{{item|year_url}}">{{item.date.year}}</a>
     </li>
@@ -16,6 +16,7 @@
         <time class="updated" datetime="{{item.date|xmldatetime}}">{{item.date.strftime('%m-%d')}}</time>
         <a href="{{item|permalink}}">{{item.title}}</a>
     </li>
+<!-- {{vars}} -->
     {% endfor %}
 </ul>
 {% if pagination.has_prev or pagination.has_next %}

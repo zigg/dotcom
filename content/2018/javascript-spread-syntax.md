@@ -2,6 +2,7 @@
 
 - date: 2018-01-09 12:00
 - tags: javascript
+- canonical_url: https://spin.atomicobject.com/2018/01/09/javascript-spread-syntax/
 
 ----
 
@@ -190,4 +191,6 @@ x({ y: 1, z: 2, zz: 3 }); // returns [1, { z: 2, zz: 3 }]
 Everything you’ve seen above for destructuring assignments works here, including array destructuring and the rest pattern. This can be pretty handy when you need to pull apart a tiny object. But beware, if you’re dealing with a large one, you may want to shift that destructure either into the interior of the function or forgo it entirely to avoid making your function header too dense.
 
 Hopefully, you’ve found some useful new syntax to make your JavaScript code more readable and object manipulation more convenient.
+
+_This article originally appeared [on Atomic Spin](https://https://spin.atomicobject.com/2018/01/09/javascript-spread-syntax/)._
 

@@ -4,7 +4,7 @@ name = 'dotcom'
 version = '1.0'
 website = 'https://zigg.com/'
 author = {
-    'name': 'Matt Behrens',
+    'name': 'Mattie Behrens',
     'website': 'https://zigg.com',
 }
 

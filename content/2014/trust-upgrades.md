@@ -51,10 +51,10 @@ similar assertion.
 But there's a missing assertion here.  Can you spot it?
 
 Okay, I was always terrible at suspense.  Here it is: *you have no
-way of knowing that I, Matt Behrens, am the person behind all this.*
+way of knowing that I, Mattie Behrens, am the person behind all this.*
 
 "How can this be?" you are asking now.  "You are @zigg.  I know you are.
-You're that guy always talking about nerd stuff I have no hope of
+You're that person always talking about nerd stuff I have no hope of
 comprehending and progressive rock bands I've never heard of and
 [Unikitty](http://www.lego.com/en-us/movie/explore/characters/unikitty)
 (who I've actually heard of and is pretty awesome.)  And you did this
@@ -67,7 +67,7 @@ Let me break this model for you.  Suspend your disbelief for a moment;
 I'm well aware I'm not an attractive enough target to justify this level
 of investment in.  But imagine anyway:
 
-1.  Evil Zigg (he has a goatee) generated his own PGP key.
+1.  Evil Zigg (they have a goatee) generated their own PGP key.
 
 2.  Evil Zigg actually owns @zigg.
 
@@ -75,14 +75,14 @@ of investment in.  But imagine anyway:
     @zigg which is where you see it, modifying things so they work out
     OK.
 
-4.  Evil Zigg went ahead and signed up for Keybase with his key and
+4.  Evil Zigg went ahead and signed up for Keybase with their key and
     tweeted the proof you saw above.
 
 Or, maybe Evil Zigg just hacked my Twitter.  (I'm careful, but this is
 more likely.)
 
 Now you come around, see the proof, see me on Keybase, say "hey, this is
-@zigg, I know him!  How could anyone who likes Unikitty so much be evil?"
+@zigg, I know them!  How could anyone who likes Unikitty so much be evil?"
 And you go ahead and do a `keybase encrypt zigg -m 'top secret things'`
 and Evil Zigg intercepts it and… game over.
 

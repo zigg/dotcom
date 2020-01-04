@@ -23,7 +23,7 @@ config:
     timezone: "-00:00"
 
 author:
-    default: "Matt Behrens"
+    default: "Mattie Behrens"
 
 #: active readers
 reader:
